@@ -3,110 +3,30 @@
 
 <!--头部-->
 <head>
-<title>永山论坛</title>
-<link rel="icon" href="./picture/ys from hs.ico" type="image/x-icon">
-<!--CSS样式部分-->
-<style>
-*{
-padding:0;
-margin:0;
-}
-body{
-background-color:pink;
-}
-h1{
-text-align:center;
-font-weight:900;
-margin-top:50px;
-}
-h2{
-text-align:center;
-font-weight:900;
-}
-#gun-dong-zi-mu::after{
-display:inline-block;
-animation:changeText 22s infinite;
-content:"欢迎来到永山论坛!"
-}
-@keyframes changeText{
-1%,10%{content:"欢迎来到永山论坛!"}
-10%,20%{content:"对于一个人来说，最恐怖的不是外有死神，不是家有内鬼，而是自己最依靠的人没了。——林羽凡"}
-20%,30%{content:"透过重重迷雾去寻查这些事情下的秘密、缘由、动机和结局。——《雾里寻情》"}
-30%,40%{content:"爱与恨，此兴彼落，情感的变幻如弹指一挥间，往往就存在于某一个瞬间。——《雾里寻情》"}
-40%,50%{content:"对一个人的在意，或许就是在人群中能够一眼看到。——踌躇什么"}
-50%,60%{content:"思考的不是回忆，而是你对我固执般的成见。——踌躇什么"}
-60%,70%{content:"在黎明到来之前，总要有人稍微照亮世间。"}
-70%,80%{content:"I have been waiting for you.——M.E."}
-80%,90%{content:"Maybe I'mjust a speck of dust in your world,but you're the brightest star in my world.——M.E."}
-90%,100%{content:"性甚致灾，割以永治。——范孟德"}
-}
-.gun-dong-zi-mu{
-display:flex;
-align-items:center;
-justify-content:center;
-position:relative;
-text-align:center;
-margin-top:10px;
-margin-left:5px;
-margin-right:5px;
-}
-.enter{
-height:60px;
-margin-top:50px;
-margin-left:100px;
-margin-right:100px;
-display:flex;
-align-items:center;
-justify-content:center;
-position:relative;
-}
-.enter::before{
-content:"";
-display:block;
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:10px;
-background:linear-gradient(to right,blue,red);
-}
-.enter::after{
-content:"";
-display:block;
-position:absolute;
-bottom:0;
-left:0;
-width:100%;
-height:10px;
-background:linear-gradient(to right,gray,black);
-}
-a{
-color:black;
-text-decoration:none;
-}
-.load{
-position:absolute;
-width:100%;
-bottom:50px;
-font-weight:900;
-text-align:center;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永山论坛</title>
+    <link rel="icon" href="./picture/ys from hs.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <!--主体文件-->
 <body>
-<!--弹窗部分-->
-<script>
-alert("欢迎使用永山论坛!\n注:该论坛不隶属于莆田九中，其包括的内容也不受到莆田九中的赞助。\n部分文本含有title属性需通过光标触发。\n祝您拥有一个良好的体验!\n\n拜托我们还没做完doge")
-</script>
-<!--标题文字-->
-<h1>永山欢迎您!</h1>
-<h2>ys 2025-2026</h2>
-<!--滚动字幕-->
-<div class="gun-dong-zi-mu" id="gun-dong-zi-mu" style="font-weight:900;"></div>
-<!--进入论坛按钮-->
-<div class="enter"><a style="font-weight:900;" href=./home.html>进入论坛</a></div>
-<!--加载文字-->
-<div class="load">加载中请稍候</div>
-</body>>
+    <div class="text">
+        <!--标题文字-->
+        <h1>永山欢迎您!</h1>
+        <h2>ys 2025-2026</h2>
+        <!--滚动字幕-->
+        <div class="gun-dong-zi-mu" id="gun-dong-zi-mu" style="font-weight:900;"></div>
+        <!--进入论坛按钮-->
+        <a style="font-weight:900;" href=./home.html>
+            <div class="enter">进入论坛</div>
+        </a>
+    </div>
+    <!--弹窗部分-->
+    <script>
+        alert("欢迎使用永山论坛!\n注:该论坛不隶属于莆田九中，其包括的内容也不受到莆田九中的赞助。\n部分文本含有title属性需通过光标触发。\n祝您拥有一个良好的体验!\n\n拜托我们还没做完doge")
+    </script>
+</body>
+
+</html>

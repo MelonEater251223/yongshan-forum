@@ -1,0 +1,95 @@
+*{
+padding:0;
+margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg,#ff6b6b,#4ecdc4,#45b7d1);
+    background-size: 200% 200%;
+    animation: moves 10s ease infinite;
+}
+@keyframes moves{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+h1{
+text-align:center;
+font-weight:900;
+}
+h2{
+text-align:center;
+font-weight:900;
+}
+#gun-dong-zi-mu::after{
+display:inline-block;
+animation:changeText 22s infinite;
+content:"欢迎来到永山论坛!"
+}
+@keyframes changeText{
+1%,10%{content:"欢迎来到永山论坛!"}
+10%,20%{content:"对于一个人来说，最恐怖的不是外有死神，不是家有内鬼，而是自己最依靠的人没了。——林羽凡"}
+20%,30%{content:"透过重重迷雾去寻查这些事情下的秘密、缘由、动机和结局。——《雾里寻情》"}
+30%,40%{content:"爱与恨，此兴彼落，情感的变幻如弹指一挥间，往往就存在于某一个瞬间。——《雾里寻情》"}
+40%,50%{content:"凝望天，说那般繁星清光如雪。"}
+50%,60%{content:"思考的不是回忆，而是你对我固执般的成见。——踌躇什么"}
+60%,70%{content:"对一个人的在意，或许就是在人群中能够一眼看到。——踌躇什么"}
+70%,80%{content:"I have been waiting for you.——M.E."}
+80%,90%{content:"Maybe I'mjust a speck of dust in your world,but you're the brightest star in my world.——M.E."}
+90%,100%{content:"性甚致灾，割以永治。——范孟德"}
+}
+.text{
+    margin-top: 5%;
+}
+.gun-dong-zi-mu{
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+text-align:center;
+margin-top:25px;
+margin-left:5px;
+margin-right:5px;
+}
+.enter{
+height:60px;
+margin-top:50px;
+margin-left:100px;
+margin-right:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+position:relative;
+}
+.enter::before{
+content:"";
+display:block;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:10px;
+background:linear-gradient(to right,blue,red);
+}
+.enter::after{
+content:"";
+display:block;
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+height:10px;
+background:linear-gradient(to right,gray,black);
+}
+a{
+color:black;
+text-decoration:none;
+}
