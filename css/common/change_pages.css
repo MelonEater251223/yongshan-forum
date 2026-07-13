@@ -2,7 +2,7 @@
 navigation:auto;
 }
 ::view-transition-group(page-content){
-animation-duration: 0.5s;
+animation-duration: 5.8s;
 animation-timing-function: ease;
 }
 ::view-transition-old(page-content){
