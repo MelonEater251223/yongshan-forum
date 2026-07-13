@@ -1,26 +1,31 @@
 .nav{
-    background-color: #333;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index:2;
+background-color: white;
+width: 100%;
+position: fixed;
+top: 0;
+z-index:2;
 }
 .menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
 }
 .menu > li{
-    float: left;
+float: left;
 }
 .menu > li >a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 .menu > li >a:hover{
-    background-color: #111;
+background-color: #111;
+color: #FFF;
+}
+.fake ul li a{
+background-color: white;
+color: white;
 }
