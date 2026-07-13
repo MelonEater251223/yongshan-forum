@@ -26,3 +26,7 @@ padding: 50px;
 box-shadow: 3px 4px 5px 3px rgba(0, 0, 0, .1);
 font-weight: bold;
 }
+a{
+text-decoration: none;
+color: blue;
+}
