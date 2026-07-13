@@ -25,6 +25,7 @@ font-weight: bold;
 img{
 height: 50px;
 margin-right: 20px;
+border-radius: 100%;
 }
 p{
 text-align: center;

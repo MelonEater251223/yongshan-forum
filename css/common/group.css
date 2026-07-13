@@ -1,0 +1,18 @@
+img{
+height: 100px;
+margin-top: 5px;
+border: 5.8px solid black;
+}
+.radiu{
+height: 100px;
+margin-top: 5px;
+border: 5.8px solid black;
+border-radius: 100%;
+}
+.bold{
+font-weight: bold;
+}
+table{
+width: 100%;
+text-align: center;
+}
