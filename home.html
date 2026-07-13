@@ -8,10 +8,13 @@
     <title>主页 | 永山论坛</title>
     <link rel="icon" href="./picture/ys from hs.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/common/all.css">
 </head>
 
 <!--主体文件-->
 <body>
+<!--正文部分-->
+<main>
     <!--内容部分-->
     <h1>永山论坛</h1>
     <!--目录部分-->
@@ -25,9 +28,13 @@
         <span>ys 2025-2026</span><br>
         <a href="./webversion.html">v2.0.0.0</a>
         <!--动态时间-->
-        <div class="time" id="time">Loading...</div>
-        <script src="./js/home.js"></script>
+        <div class="timing">
+            <p>当前时间：</p>
+            <div class="time" id="time">加载中</div>
+            <script src="./js/home.js"></script>
+        </div>
     </div>
+</main>
 </body>
 
 </html>
