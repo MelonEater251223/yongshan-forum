@@ -14,18 +14,13 @@ overflow: hidden;
 .menu > li{
 float: left;
 }
-.menu > li >a{
+.menu > li >a >img{
 display: block;
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+padding: 10px;
 }
-.menu > li >a:hover{
-background-color: #111;
-color: #FFF;
+.menu > li >a >img:hover{
+background-color: skyblue;
 }
-.fake ul li a{
-background-color: white;
-color: white;
+.fake ul li div{
+height: 44px;
 }

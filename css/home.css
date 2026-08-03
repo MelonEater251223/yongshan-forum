@@ -35,7 +35,7 @@ background:linear-gradient(to right,red,orange,yellow,green,cyan,blue,purple);
 h2{
 text-align:center;
 }
-.menu{
+a div{
 display:flex;
 align-items:center;
 justify-content:center;
@@ -65,4 +65,7 @@ text-decoration:none;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+img{
+margin-right: 5px;
 }
