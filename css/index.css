@@ -20,6 +20,7 @@ body{
 h1{
 text-align:center;
 font-weight:900;
+margin-top: 5%;
 }
 h2{
 text-align:center;
@@ -41,9 +42,6 @@ content:"欢迎来到永山论坛!"
 70%,80%{content:"I have been waiting for you.——M.E."}
 80%,90%{content:"Maybe I'mjust a speck of dust in your world,but you're the brightest star in my world.——M.E."}
 90%,100%{content:"性甚致灾，割以永治。——范孟德"}
-}
-.text{
-    margin-top: 5%;
 }
 .gun-dong-zi-mu{
 display:flex;

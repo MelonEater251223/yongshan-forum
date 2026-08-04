@@ -66,6 +66,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-img{
+a div img{
 margin-right: 5px;
+}
+.github{
+width: 24px;
 }

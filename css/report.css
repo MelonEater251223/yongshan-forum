@@ -1,6 +1,7 @@
 marquee{
 border: 3px solid black;
 background-color: gray;
+height: 60px;
 }
 h2{
 text-align: center;
