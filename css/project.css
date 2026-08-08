@@ -1,0 +1,49 @@
+h2{
+text-align: center;
+}
+h2+p{
+text-align: center;
+}
+div{
+background-color: lightpink;
+color:black;
+margin: 10px;
+border-radius: 10px;
+}
+div h3{
+text-align: center;
+}
+table{
+width: 70%;
+border-collapse: collapse;
+border: 1px solid black;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+tr,th,td{
+border: 1px solid black;
+text-align:left;
+}
+button{
+margin: 3px;
+padding: 3px;
+background-color: green;
+color: white;
+border: none;
+border-radius: 10px;
+text-align: center;
+}
+.none{
+margin: 3px;
+padding: 3px;
+background-color: red;
+color: white;
+border: none;
+border-radius: 10px;
+text-align: center;
+}
+a{
+text-decoration: none;
+color: black;
+}
