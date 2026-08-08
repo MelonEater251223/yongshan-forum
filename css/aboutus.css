@@ -1,6 +1,3 @@
-body{
-background-color:white;
-}
 h1{
 text-align:center;
 margin-bottom:50px;
@@ -9,19 +6,27 @@ position:relative;
 h2{
 text-align:center;
 }
-a div{
+.flex{
 display:flex;
 align-items:center;
 justify-content:center;
+text-align:center;
+flex-wrap:wrap;
+}
+.flex a div{
 text-align:center;
 background-color:skyblue;
 color: gray;
 margin-left:5%;
 margin-right:5%;
 margin-top:50px;
+padding:20px;
 height:80px;
-border-radius:30px;
 font-weight: 900;
+border-radius: 10px;
+}
+.flex a div span{
+font-weight: 100;
 }
 a{
 color:black;
