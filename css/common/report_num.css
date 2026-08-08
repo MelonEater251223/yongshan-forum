@@ -1,0 +1,20 @@
+*{
+margin: 0;
+padding: 0;
+background-color: #DDE6E6;
+}
+h1{
+text-align: right;
+}
+h2{
+text-align: center;
+}
+p{
+margin-top: 10px;
+}
+a span{
+position: absolute;
+font-size: 35px;
+color: black;
+text-decoration: none;
+}
