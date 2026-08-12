@@ -6,6 +6,12 @@ function time(){
     return timeString;
 }
 
+function year(){
+    const now = new Date();
+    const year = now.getFullYear().toString();
+    return year;
+}
+
 let shijian = time()
 
 if(shijian==='8/6'){
@@ -28,6 +34,12 @@ else if(shijian==='1/8'){
 }
 else if(shijian==='6/22'){
     alert("今天是徐海旺的生日，让我们祝徐海旺生日快乐!")
+}
+else if(shijian==='8.16'){
+    alert("今天，永山官网正式上线"+(year() - 2025)+"周年啦~~~")
+}
+else if(shijian==='12.25'){
+    alert("今天，永山文娱有限公司成立"+(year() - 2024)+"啦~~~")
 }
 else{
     console.log("今天不是特殊日期,今天是"+time())
