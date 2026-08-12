@@ -1,6 +1,9 @@
 h2{
 text-align: center;
 }
-li{
-margin-left: 5px;
+main div{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 50px;
+background-color: #f2f2f2;
 }
