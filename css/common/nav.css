@@ -1,7 +1,7 @@
 .nav{
 background-color: white;
 width: 100%;
-position: fixed;
+position: sticky;
 top: 0;
 z-index:2;
 }
@@ -20,7 +20,4 @@ padding: 10px;
 }
 .menu > li >a >img:hover{
 background-color: skyblue;
-}
-.fake ul li div{
-height: 44px;
 }
