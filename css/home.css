@@ -72,3 +72,46 @@ margin-right: 5px;
 .github{
 width: 24px;
 }
+#loading-page{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+animation-name: loading-div;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+#loading-page img{
+height: 60%;
+animation-name: loading-img;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+}
+@keyframes loading-div{
+0%{
+display: flex;
+}
+99%{
+display: flex;
+}
+100%{
+display: none;
+}
+}
+@keyframes loading-img{
+0%{
+transform: rotate(0deg); 
+}
+50%{
+scale: 1.2;
+}
+100%{
+transform: rotate(360deg);
+border-radius: 50%;
+}
+}
