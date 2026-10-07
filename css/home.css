@@ -72,7 +72,7 @@ margin-right: 5px;
 .github{
 width: 24px;
 }
-#loading-page{
+/* #loading-page{
 position: fixed;
 z-index: 3;
 top: 0;
@@ -115,4 +115,4 @@ scale: 1.2;
 transform: rotate(360deg);
 border-radius: 50%;
 }
-}
+} */
